@@ -212,6 +212,7 @@ apt_install_dev_dependencies() {
   sudo apt-get install libmagickwand-dev -y
   sudo apt install virtualbox-dkms -y
   sudo apt-get install mailutils -y
+  sudo apt-get install xvfb libfontconfig wkhtmltopdf -y
 }
 
 apt_install_bat() {
